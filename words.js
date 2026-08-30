@@ -203,7 +203,7 @@ La viande|Et|Je ne mange pas beaucoup de viande rouge. (Çok fazla kırmızı et
 Le pain|Ekmek|Achetons du pain frais pour le petit-déjeuner. (Kahvaltı için taze ekmek alalım.)
 Le beurre|Tereyağı|Passe-moi le beurre, s'il te plaît. (Lütfen bana tereyağını uzat.)
 Le sel|Tuz|La soupe de légumes manque un peu de sel. (Sebze çorbasının tuzu biraz eksik.)
-Le sucre|Şeker|Je bois mon café sans aucun sucre. (Kahvemi hiç şekersiz içiyorum.)`;
+Le sucre|Şeker|Je bois mon café sans aucun sucre. (Kahvemi hiç şekersiz içiyorum.)
 Le trottoir|Kaldırım|Il est interdit de se garer sur le trottoir. (Kaldırıma park etmek yasaktır.)
 Le feu rouge|Kırmızı ışık|Tu dois t'arrêter au feu rouge. (Kırmızı ışıkta durmalısın.)
 Le carrefour|Kavşak|Tournez à gauche au prochain carrefour. (Bir sonraki kavşakta sola dönün.)
@@ -513,5 +513,4 @@ Afin de|Amacıyla (-mek için)|Je m'entraîne tous les jours afin de gagner la c
 Depuis|Beridir (-den beri)|J'habite dans ce petit quartier depuis cinq ans. (Beş yıldan beri bu küçük mahallede yaşıyorum.)
 Pourtant|Oysaki / Yine de|Il a beaucoup étudié, pourtant il a raté son examen. (Çok çalıştı, oysaki sınavında başarısız oldu.)
 Au lieu de|Yerine (-in yerine)|Au lieu de pleurer, tu devrais chercher une solution. (Ağlamak yerine bir çözüm aramalısın.)
-Ensuite|Sonrasında|Nous allons manger, et ensuite nous irons dormir. (Yemek yiyeceğiz ve sonrasında uyumaya gideceğiz.)
-  
+Ensuite|Sonrasında|Nous allons manger, et ensuite nous irons dormir. (Yemek yiyeceğiz ve sonrasında uyumaya gideceğiz.)`;
