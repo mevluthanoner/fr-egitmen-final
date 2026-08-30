@@ -121,4 +121,86 @@ Le médecin|Doktor|Le médecin examine le patient.|Doktor hastayı muayene ediyo
 L'infirmière|Hemşire|L'infirmière est très gentille.|Hemşire çok naziktir.
 L'avocat|Avukat|J'ai besoin de parler à mon avocat.|Avukatımla konuşmaya ihtiyacım var.
 Le professeur|Öğretmen|Le professeur explique la leçon.|Öğretmen dersi açıklıyor.
+Le chien|Köpek|Le chien aboie fort ce soir.|Köpek bu akşam yüksek sesle havlıyor.
+Le chat|Kedi|Le chat dort sur le canapé.|Kedi kanepede uyuyor.
+L'oiseau|Kuş|L'oiseau chante tous les matins.|Kuş her sabah ötüyor.
+Le cheval|At|Il monte à cheval le week-end.|O hafta sonları ata biniyor.
+La vache|İnek|La vache donne du lait.|İnek süt verir.
+Le mouton|Koyun|Le mouton mange de l'herbe verte.|Koyun yeşil ot yiyor.
+La tête|Baş / Kafa|J'ai vraiment mal à la tête.|Gerçekten başım ağrıyor.
+Le bras|Kol|Il s'est cassé le bras hier.|O dün kolunu kırdı.
+La main|El|Lave-toi les mains avant le repas.|Yemekten önce ellerini yıka.
+La jambe|Bacak|Ma jambe me fait mal depuis hier.|Bacağım dünden beri ağrıyor.
+Le pied|Ayak|J'ai froid aux pieds en hiver.|Kışın ayaklarım üşüyor.
+L'œil|Göz|Il a un œil bleu et un œil vert.|Onun bir mavi, bir yeşil gözü var.
+Le nez|Burun|Mon nez coule à cause du rhume.|Nezle yüzünden burnum akıyor.
+La bouche|Ağız|Ferme la bouche quand tu manges.|Yemek yerken ağzını kapat.
+Le dos|Sırt|Mon dos est très douloureux ce matin.|Bu sabah sırtım çok ağrılı.
+Le ventre|Karın / Mide|J'ai mal au ventre, je dois m'allonger.|Karnım ağrıyor, uzanmalıyım.
+Rouge|Kırmızı|La pomme est très rouge et sucrée.|Elma çok kırmızı ve tatlı.
+Bleu|Mavi|Le ciel est bleu, sans aucun nuage.|Gökyüzü mavi, hiç bulut yok.
+Vert|Yeşil|L'herbe est plus verte au printemps.|Çimen ilkbaharda daha yeşildir.
+Jaune|Sarı|Le soleil est jaune et brillant.|Güneş sarı ve parlaktır.
+Noir|Siyah|Le chat noir me regarde fixement.|Siyah kedi bana dik dik bakıyor.
+Blanc|Beyaz|La neige est toute blanche.|Kar bembeyazdır.
+Gris|Gri|Le nuage est gris, il va pleuvoir.|Bulut gri, yağmur yağacak.
+Marron|Kahverengi|Ses yeux sont marron clair.|Gözleri açık kahverengi.
+Grand|Büyük / Uzun|C'est un très grand bâtiment.|Bu çok büyük bir bina.
+Petit|Küçük|Le petit garçon pleure dans la rue.|Küçük çocuk sokakta ağlıyor.
+Beau|Güzel / Yakışıklı|C'est un beau paysage d'automne.|Bu güzel bir sonbahar manzarası.
+Laid|Çirkin|Ce canard est particulièrement laid.|Bu ördek özellikle çirkin.
+Fort|Güçlü|Il est très fort pour soulever ça.|Bunu kaldıracak kadar çok güçlü.
+Faible|Zayıf / Güçsüz|Je me sens faible après la maladie.|Hastalıktan sonra güçsüz hissediyorum.
+Rapide|Hızlı|Ce nouveau train est très rapide.|Bu yeni tren çok hızlıdır.
+Lent|Yavaş|La tortue est un animal très lent.|Kaplumbağa çok yavaş bir hayvandır.
+Propre|Temiz|La chambre est propre et bien rangée.|Oda temiz ve düzenli.
+Sale|Kirli|Mes vêtements sont sales après le match.|Maçtan sonra kıyafetlerim kirli.
+Manger|Yemek yemek|Je veux manger une pomme maintenant.|Şimdi bir elma yemek istiyorum.
+Boire|İçmek|Il faut boire beaucoup d'eau chaque jour.|Her gün çok su içmek gerekir.
+Dormir|Uyumak|Je vais dormir tôt ce soir.|Bu akşam erken uyuyacağım.
+Parler|Konuşmak|Il parle trop vite pour moi.|O benim için çok hızlı konuşuyor.
+Écouter|Dinlemek|J'écoute la radio dans la voiture.|Arabada radyoyu dinlerim.
+Regarder|Bakmak / İzlemek|Regarde ce beau tableau sur le mur.|Duvardaki şu güzel tabloya bak.
+Voir|Görmek|Je ne vois rien dans le noir absolu.|Zifiri karanlıkta hiçbir şey görmüyorum.
+Courir|Koşmak|Il court chaque matin dans le grand parc.|Her sabah büyük parkta koşuyor.
+Marcher|Yürümek|Nous marchons ensemble vers le centre-ville.|Birlikte şehir merkezine yürüyoruz.
+Acheter|Satın almak|Je vais acheter du pain frais à la boulangerie.|Fırından taze ekmek alacağım.
+Payer|Ödemek|Je vais payer l'addition par carte de crédit.|Hesabı kredi kartıyla ödeyeceğim.
+Le vent|Rüzgar|Le vent souffle très fort aujourd'hui.|Rüzgar bugün çok sert esiyor.
+La pluie|Yağmur|La pluie tombe sans arrêt depuis hier.|Yağmur dünden beri durmadan yağıyor.
+La neige|Kar|La neige couvre toute la montagne.|Kar bütün dağı kaplıyor.
+La montagne|Dağ|Nous allons à la montagne pour faire du ski.|Kayak yapmak için dağa gidiyoruz.
+La rivière|Nehir|La rivière est très profonde ici.|Nehir burada çok derindir.
+L'arbre|Ağaç|Cet arbre au fond du jardin est très vieux.|Bahçenin sonundaki bu ağaç çok yaşlıdır.
+La fleur|Çiçek|Cette fleur rouge sent incroyablement bon.|Bu kırmızı çiçek inanılmaz güzel kokuyor.
+Le train|Tren|Le train pour Paris part à l'heure exacte.|Paris treni tam vaktinde kalkıyor.
+La voiture|Araba|Ma voiture est en panne sur l'autoroute.|Arabam otoyolda bozuldu.
+Le bus|Otobüs|Prends le bus numéro cinq pour y aller.|Oraya gitmek için beş numaralı otobüse bin.
+Le vélo|Bisiklet|J'aime faire du vélo dans la forêt.|Ormanda bisiklete binmeyi severim.
+Le bateau|Gemi / Tekne|Le bateau navigue tranquillement sur la mer.|Gemi denizde sakince seyrediyor.
+La station|İstasyon / Durak|Excusez-moi, où est la station de métro ?|Afedersiniz, metro istasyonu nerede?
+Le canapé|Kanepe|Le canapé gris du salon est très confortable.|Salondaki gri kanepe çok rahat.
+Le lit|Yatak|Le lit est défait, tu dois le faire.|Yatak dağınık, onu toplamalısın.
+La chaise|Sandalye|Prends une chaise et assieds-toi avec nous.|Bir sandalye al ve bizimle otur.
+La table|Masa|Le dîner est déjà servi sur la table.|Akşam yemeği masada çoktan servis edildi.
+La porte|Kapı|Ouvre la porte, s'il te plaît, il fait chaud.|Lütfen kapıyı aç, hava sıcak.
+La fenêtre|Pencere|Ferme la fenêtre, il fait très froid dehors.|Pencereyi kapat, dışarısı çok soğuk.
+La clé|Anahtar|J'ai perdu la clé de la maison ce matin.|Evin anahtarını bu sabah kaybettim.
+Le miroir|Ayna|Elle se regarde longtemps dans le miroir.|O aynada uzun uzun kendine bakıyor.
+Le boulanger|Fırıncı|Le boulanger prépare du bon pain croustillant.|Fırıncı güzel çıtır ekmek hazırlar.
+Le boucher|Kasap|Je vais chez le boucher pour acheter de la viande.|Et almak için kasaba gidiyorum.
+L'acteur|Aktör / Oyuncu|C'est un acteur très connu dans le monde entier.|O dünya çapında çok bilinen bir aktördür.
+Le chanteur|Şarkıcı|Ce chanteur a vraiment une belle voix.|Bu şarkıcının gerçekten güzel bir sesi var.
+L'ami|Arkadaş (Erkek)|C'est mon meilleur ami depuis l'enfance.|O çocukluktan beri en iyi arkadaşım.
+L'amie|Arkadaş (Kadın)|Mon amie habite actuellement à Lyon.|Arkadaşım şu anda Lyon'da yaşıyor.
+Le voisin|Komşu (Erkek)|Notre voisin du dessus est très bruyant.|Üst kat komşumuz çok gürültücü.
+La voisine|Komşu (Kadın)|La voisine a un chien adorable et calme.|Kadın komşunun sevimli ve sakin bir köpeği var.
+Le fromage|Peynir|La France est très célèbre pour son délicieux fromage.|Fransa lezzetli peyniriyle çok ünlüdür.
+Le poulet|Tavuk|Nous mangeons du poulet rôti ce soir.|Bu akşam fırında tavuk yiyoruz.
+Le poisson|Balık|Le poisson du marché est toujours frais.|Pazardaki balık her zaman tazedir.
+La viande|Et|Je ne mange pas beaucoup de viande rouge.|Çok fazla kırmızı et yemiyorum.
+Le pain|Ekmek|Achetons du pain frais pour le petit-déjeuner.|Kahvaltı için taze ekmek alalım.
+Le beurre|Tereyağı|Passe-moi le beurre, s'il te plaît.|Lütfen bana tereyağını uzat.
+Le sel|Tuz|La soupe de légumes manque un peu de sel.|Sebze çorbasının tuzu biraz eksik.
+Le sucre|Şeker|Je bois mon café sans aucun sucre.|Kahvemi hiç şekersiz içiyorum.
 Le policier|Polis|Le policier arrête la voiture.|Polis arabayı durduruyor.`;
