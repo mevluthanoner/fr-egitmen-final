@@ -61,16 +61,30 @@
     });
   };
 
-  exports.syncWords = function(dataStr) {
+    exports.syncWords = function(dataStr) {
     return new Promise((resolve, reject) => {
       const words = parseWordData(dataStr);
       const tx = db.transaction(STORE, 'readwrite');
       const store = tx.objectStore(STORE);
       let added = 0;
+      let updated = 0; 
+
       words.forEach(word => {
         const r = store.get(word.id);
-        r.onsuccess = () => { if (!r.result) { store.add(word); added++; } };
+        r.onsuccess = () => { 
+          if (!r.result) { 
+            store.add(word); 
+            added++; 
+          } else {
+            const existingWord = r.result;
+            existingWord.tr = word.tr;
+            existingWord.sentence = word.sentence;
+            store.put(existingWord);
+            updated++;
+          }
+        };
       });
+      
       tx.oncomplete = () => resolve(added);
       tx.onerror = e => reject(e.target.error);
     });
