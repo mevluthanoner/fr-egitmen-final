@@ -514,3 +514,4 @@ Depuis|Beridir (-den beri)|J'habite dans ce petit quartier depuis cinq ans. (Be�
 Pourtant|Oysaki / Yine de|Il a beaucoup étudié, pourtant il a raté son examen. (Çok çalıştı, oysaki sınavında başarısız oldu.)
 Au lieu de|Yerine (-in yerine)|Au lieu de pleurer, tu devrais chercher une solution. (Ağlamak yerine bir çözüm aramalısın.)
 Ensuite|Sonrasında|Nous allons manger, et ensuite nous irons dormir. (Yemek yiyeceğiz ve sonrasında uyumaya gideceğiz.)
+`;
