@@ -1,6 +1,7 @@
 // fregitmenimclaude - Kelime Veritabanı
 // Format: "FrWord|TrMeaning|FrSentence (TrSentence)"
 // Bu dosyaya dışarıdan yeni satır ekleyip "Kelimeleri Güncelle" butonuna basın.
+
 window.WORD_DATA = `Le père|Baba|Mon père est très travailleur. (Babam çok çalışkandır.)
 La mère|Anne|Ma mère prépare le dîner. (Annem akşam yemeğini hazırlıyor.)
 Le frère|Erkek kardeş|Mon frère joue au football. (Erkek kardeşim futbol oynuyor.)
@@ -512,5 +513,4 @@ Afin de|Amacıyla (-mek için)|Je m'entraîne tous les jours afin de gagner la c
 Depuis|Beridir (-den beri)|J'habite dans ce petit quartier depuis cinq ans. (Beş yıldan beri bu küçük mahallede yaşıyorum.)
 Pourtant|Oysaki / Yine de|Il a beaucoup étudié, pourtant il a raté son examen. (Çok çalıştı, oysaki sınavında başarısız oldu.)
 Au lieu de|Yerine (-in yerine)|Au lieu de pleurer, tu devrais chercher une solution. (Ağlamak yerine bir çözüm aramalısın.)
-Ensuite|Sonrasında|Nous allons manger, et ensuite nous irons dormir. (Yemek yiyeceğiz ve sonrasında uyumaya gideceğiz.)
-`;
+Ensuite|Sonrasında|Nous allons manger, et ensuite nous irons dormir. (Yemek yiyeceğiz ve sonrasında uyumaya gideceğiz.)`;
