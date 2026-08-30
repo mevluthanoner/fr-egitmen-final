@@ -46,15 +46,15 @@
     });
   };
 
-  exports.seedWords = function(dataStr) {
+      exports.seedWords = function(dataStr) {
     return new Promise((resolve, reject) => {
       const words = parseWordData(dataStr);
       const tx = db.transaction(STORE, 'readwrite');
       const store = tx.objectStore(STORE);
       let added = 0;
       words.forEach(word => {
-        const r = store.get(word.id);
-        r.onsuccess = () => { if (!r.result) { store.add(word); added++; } };
+        store.put(word);
+        added++;
       });
       tx.oncomplete = () => resolve(added);
       tx.onerror = e => reject(e.target.error);
@@ -68,8 +68,8 @@
       const store = tx.objectStore(STORE);
       let added = 0;
       words.forEach(word => {
-        const r = store.get(word.id);
-        r.onsuccess = () => { if (!r.result) { store.add(word); added++; } };
+        store.put(word);
+        added++;
       });
       tx.oncomplete = () => resolve(added);
       tx.onerror = e => reject(e.target.error);
