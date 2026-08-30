@@ -1,7 +1,6 @@
 // fregitmenimclaude - Kelime Veritabanı
 // Format: "FrWord|TrMeaning|FrSentence (TrSentence)"
 // Bu dosyaya dışarıdan yeni satır ekleyip "Kelimeleri Güncelle" butonuna basın.
-
 window.WORD_DATA = `Le père|Baba|Mon père est très travailleur. (Babam çok çalışkandır.)
 La mère|Anne|Ma mère prépare le dîner. (Annem akşam yemeğini hazırlıyor.)
 Le frère|Erkek kardeş|Mon frère joue au football. (Erkek kardeşim futbol oynuyor.)
