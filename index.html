@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#6c63ff" />
+  <meta name="description" content="Fransızca-Türkçe çevrimdışı kelime öğrenme uygulaması" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>frEğiTmenim</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- LOADING OVERLAY -->
+<div class="loading-overlay" id="loading-overlay">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">Kelimeler yükleniyor...</div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" role="alert" aria-live="polite"></div>
+
+<!-- MODAL -->
+<div id="modal-overlay" role="dialog" aria-modal="true" aria-label="Kelime Detayı">
+  <div id="modal-card">
+    <div class="modal-fr-row">
+      <div class="modal-fr-word" id="modal-fr-word"></div>
+    </div>
+    <div class="modal-tr-meaning" id="modal-tr-meaning"></div>
+    <div class="modal-sentence" id="modal-sentence"></div>
+    <button class="modal-speak-btn" id="modal-speak-btn">
+      🔊 Kelimeyi Seslendir
+    </button>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <div class="tab-content">
+
+    <!-- WORDS PANEL -->
+    <div class="tab-panel active" id="words-panel" role="tabpanel">
+      <div id="card-container">
+        <div class="card-actions" id="card-actions">
+          <div class="action-row">
+            <button class="action-btn btn-no" id="btn-no" aria-label="Öğrenmedim">
+              <span class="btn-icon">❌</span>
+              <span>Öğrenmedim</span>
+            </button>
+            <button class="action-btn btn-skip" id="btn-skip" aria-label="Pas">
+              <span class="btn-icon">⏭</span>
+              <span>Pas</span>
+            </button>
+            <button class="action-btn btn-yes" id="btn-yes" aria-label="Öğrendim">
+              <span class="btn-icon">✅</span>
+              <span>Öğrendim</span>
+            </button>
+          </div>
+          <div class="fav-row">
+            <button class="btn-fav" id="btn-fav" aria-label="Favorile">
+              <span class="btn-icon">⭐</span>
+              Favorile
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAVORITES PANEL -->
+    <div class="tab-panel" id="favorites-panel" role="tabpanel">
+      <div class="section-header">
+        <h1 class="section-title">⭐ Favorilerim</h1>
+      </div>
+      <div id="favorites-list"></div>
+    </div>
+
+    <!-- STATS PANEL -->
+    <div class="tab-panel" id="stats-panel" role="tabpanel">
+      <div class="section-header">
+        <h1 class="section-title">📊 İstatistikler</h1>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card purple">
+          <div class="stat-icon">📚</div>
+          <div class="stat-value" id="stat-total">0</div>
+          <div class="stat-label">Toplam Kelime</div>
+        </div>
+        <div class="stat-card green">
+          <div class="stat-icon">🏆</div>
+          <div class="stat-value" id="stat-learned">0</div>
+          <div class="stat-label">Öğrenilen</div>
+        </div>
+        <div class="stat-card cyan">
+          <div class="stat-icon">🎯</div>
+          <div class="stat-value" id="stat-remaining">0</div>
+          <div class="stat-label">Kalan</div>
+        </div>
+        <div class="stat-card pink">
+          <div class="stat-icon">⭐</div>
+          <div class="stat-value" id="stat-fav">0</div>
+          <div class="stat-label">Favori</div>
+        </div>
+      </div>
+      <div class="progress-section">
+        <div class="progress-header">
+          <span class="progress-label">Genel İlerleme</span>
+          <span class="progress-pct" id="progress-pct">%0</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+      <div class="sync-section">
+        <button class="sync-btn" id="sync-btn" aria-label="Kelimeleri Güncelle">
+          <span class="sync-icon">🔄</span>
+          Kelimeleri Güncelle (Sync)
+        </button>
+      </div>
+    </div>
+
+  </div><!-- /tab-content -->
+
+  <!-- BOTTOM NAV -->
+  <nav id="bottom-nav" role="navigation" aria-label="Ana Menü">
+    <button class="nav-btn active" data-tab="words" role="tab">
+      <span class="nav-icon">🃏</span>
+      <span class="nav-label">Kelimeler</span>
+    </button>
+    <button class="nav-btn" data-tab="favorites" role="tab">
+      <span class="nav-icon">⭐</span>
+      <span class="nav-label">Favoriler</span>
+    </button>
+    <button class="nav-btn" data-tab="stats" role="tab">
+      <span class="nav-icon">📊</span>
+      <span class="nav-label">Sayaç</span>
+    </button>
+  </nav>
+
+</div><!-- /app -->
+
+<!-- Scripts: order matters — words.js first, then namespaces, then app -->
+<script src="words.js"></script>
+<script src="js/db.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+<!-- PWA Service Worker — only for http(s), not file:// -->
+<script>
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('./service-worker.js').catch(function(){});
+    });
+  }
+</script>
+
+</body>
+</html>
